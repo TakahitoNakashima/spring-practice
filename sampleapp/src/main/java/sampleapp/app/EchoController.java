@@ -16,4 +16,9 @@ public class EchoController {
 		return "echo/input";
 	}
 
+	@RequestMapping(method = RequestMethod.POST)
+	public String echo(EchoForm form) {
+		return "echo/output";
+	}
+
 }
