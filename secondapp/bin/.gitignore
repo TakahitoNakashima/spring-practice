@@ -1,0 +1,11 @@
+# .classpathファイルを除外
+*.classpath
+
+# .projectファイルを除外
+*.project
+
+# .settingsフォルダを除外
+.settings/
+
+# target  フォルダを除外
+target/
