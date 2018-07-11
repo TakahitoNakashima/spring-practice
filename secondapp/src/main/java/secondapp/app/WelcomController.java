@@ -12,7 +12,13 @@ public class WelcomController {
 	@RequestMapping("/")
 	public String home(Model model) {
 		model.addAttribute("now", new Date());
-		return "home";
+		return "index";
+	}
+
+	@RequestMapping("create")
+	public String form(Model model) {
+		model.addAttribute(new AccountCreateForm());
+		return "account/createForm";
 	}
 
 }
