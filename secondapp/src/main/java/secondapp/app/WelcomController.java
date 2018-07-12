@@ -15,10 +15,10 @@ public class WelcomController {
 		return "index";
 	}
 
-	@RequestMapping("create")
-	public String form(Model model) {
-		model.addAttribute(new AccountCreateForm());
-		return "account/createForm";
-	}
+//	@RequestMapping("account/create")
+//	public String form(Model model) {
+//		model.addAttribute(new AccountCreateForm());
+//		return "account/createForm";
+//	}
 
 }
